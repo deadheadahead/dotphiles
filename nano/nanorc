@@ -1,4 +1,4 @@
-#
+ #
 # dotphiles : https://github.com/dotphiles/dotphiles
 #
 # Basic nano configuration
@@ -180,7 +180,7 @@ include "~/.nano.d/syntax-highlighting/java.nanorc"
 include "~/.nano.d/syntax-highlighting/man.nanorc"
 #mutt
 #include "~/.nano.d/syntax-highlighting/mutt.nanorc"
-#nanorc
+nanorc
 include "~/.nano.d/syntax-highlighting/nanorc.nanorc"
 #patch
 include "~/.nano.d/syntax-highlighting/patch.nanorc"

@@ -6,13 +6,17 @@
 # Authors:
 #   Ben O'Hara <bohara@gmail.com>
 #
+#
+######
+# Script to sync
+# ./.dotfiles/dotsync/bin/dotsync -L
 
 # Location of your dotfiles in $HOME
 DOTFILES=.dotfiles
 
 # dotfiles to symlink
 #
-srcfile:dstfile
+# srcfile:dstfile
 # dstfile will be '.$srcfile' by default (with path removed)
 #
 [files]
@@ -61,8 +65,8 @@ dotsyncrc
 #subversion
 #task/task
 #task/taskrc
-#tmux/tmux.conf
-#tmux/tmuxinator
+tmux/tmux.conf
+tmux/tmuxinator
 vim/dotvim:.vim
 vim/vimrc
 vim/gvimrc
@@ -75,10 +79,12 @@ zsh/zprofile
 zsh/zshenv
 zsh/zshrc
 #oh-my-zsh
+nano/nanorc
+nano/syntax-highlighting
 [endfiles]
 
 # Hosts to sync
-## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
+## hostname                     type=masterhost, ANY or NONE   files=dotfile:tolink,another:tolink
 [hosts]
 Josephs-MacBook-Pro.local = joseph-host-config
 #host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
